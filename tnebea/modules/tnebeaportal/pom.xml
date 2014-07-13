@@ -3,17 +3,18 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.danijose.organization.tnebea</groupId>
-    <artifactId>tnebea</artifactId>
+    <artifactId>modules</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent> 
-  <artifactId>modules</artifactId>
-  <name>modules</name>
+  <artifactId>tnebeaportal</artifactId>
+  <name>tnebeaportal</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <packaging>pom</packaging>
   <modules>
-    <module>tnebeaportal</module>
+  	<module>tnebapublicportal</module>
+    <module>tnebeaprivateportal</module>
   </modules>
 </project>
